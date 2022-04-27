@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="js/splide-3.0.9/dist/css/themes/splide-default.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Movies Engine</title>
+</head>
+<body>
+    
+    <div class="page-container ">
+<div class="top-bar">
+    <input type="text" class="search" placeholder="what movies are you looking for"/> 
+    <div class="weather">
+
+        <span class="user-location"></span> 
+      <div class="lds-ellipsis loader"><div class="loader-dot"></div><div class="loader-dot"></div><div class="loader-dot"></div><div class="loader-dot"></div></div>  &nbsp;
+        <span class="user-location-temp"></span>
+        <span class="deg">&#8451;</span>
+    </div>
+</div>
+<header class="header">
+<nav class="nav">
+    <ul class="main-menu">
+        <li class="nav-li">
+            <div class="home-btn">
+            <i class="fas fa-home icon"></i></br><a class="link" href="">Home</a>
+        </div>
+        <div class="hamburger">
+        <i class="fas fa-bars icon ham"></i>
+    </div></li>
+        <li class="nav-li"><i class="fas fa-fire icon"></i><a class="link" href="">Popular</a></li>
+        <li class="nav-li"><i class="fas fa-play icon"></i><a class="link" href="">TvSeries</a></li>
+        <li class="nav-li"><i class="fas fa-film icon"></i><a class="link" href="">Movies</a></li>
+        <li class="mode nav-li"><i class="fas fa-moon icon"></i><a class="link">mode</a></li>
+    </ul>
+</nav>
+<div class="slider">
+    <div class="splide">
+        <div class="splide__track">
+              <ul class="splide__list">
+                  <li class="splide__slide"><img class="slider-img" src="images/movieposter1.jpg" /></li>
+                  <li class="splide__slide"><img class="slider-img" src="images/movieposter2.jpg" /></li>
+                  <li class="splide__slide"><img class="slider-img" src="images/movieposter3.jpg" /></li>
+              </ul>
+        </div>
+      </div>
+
+      <div id="thumbnail-slider" class="splide">
+        <div class="splide__track">
+              <ul class="splide__list">
+                  <li class="splide__slide thumb">
+                      <img src="images/movieposter1.jpg">
+                  </li>
+                  <li class="splide__slide thumb">
+                      <img src="images/movieposter2.jpg">
+                  </li>
+                  <li class="splide__slide thumb">
+                      <img src="images/movieposter3.jpg">
+                  </li>
+              </ul>
+        </div>
+      </div>
+
+</div>
+</header>
+<section class="search-result">
+<div class="search-container">
+    <i class="fas fa-times"></i>
+    <div class="loader-wrapper">
+    <div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+    <div class="search-content">
+
+
+
+    </div>
+</div>
+
+</section>
+<h1 class="coming-soon">Coming soon</h1>
+<section class="new-movies-container">
+  
+</section>
+
+
+    </div>
+    <script src="js/splide-3.0.9/dist/js/splide.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
